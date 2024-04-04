@@ -12,7 +12,7 @@
 [![My Skills](https://skillicons.dev/icons?i=html,css,javascript)](https://skillicons.dev)
 
 ## 🌐 Link
-<a href="">Nexa Yonder</a>
+<a href="https://nexa-yonder.netlify.app/">Nexa Yonder</a>
 
 ## License🔐
 [MIT License](LICENSE)
