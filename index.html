@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--------------- FontAwesome - Icons  --------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <!--------------- Style CSS  --------------->
+    <link rel="stylesheet" href="CSS/style.css">
+    <!--------------- Favicon --------------->
+    <link rel="shortcut icon" href="img/Favicon.png" type="image/x-icon">
+
+    <title>Nexa Yonder</title>
+</head>
+<body>
+    <!-------------------- Header -------------------->
+    <header class="header" id="header">
+        <!-------------------- Navigaton -------------------->
+        <nav class="nav container">
+            <div class="logo">
+                <img class="logo-img" src="img/Logo.png" alt="Nexa Yonder - Logo">
+            </div>
+
+            <!-------------------- Nav Links -------------------->
+            <ul class="nav-links" id="nav-links">
+                <a class="link" href="#home">Domů</a>
+                <a class="link" href="#about">O&nbsp;nás</a>
+                <a class="link" href="#proces">Proces</a>
+                <a class="link" href="#size-help">Velikost</a>
+                <a class="link contact-link" href="#contact">Kontakt</a>
+                <!---------- Languages ---------->
+                <div class="lang-content">
+                    <a href="#" language="czech"><img src="img/CZ.png" width="24px"></a>
+                    <a href="#" language="english"><img src="img/EN.png" width="24px"></a>
+                </div>
+            </ul>
+
+            <!-------------------- Menu Button -------------------->
+            <div class="burger-menu" id="burger-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-------------------- Main -------------------->
+    <main class="main">
+        <!-------------------- Home -------------------->
+        <section class="home section" id="home">
+            <img src="img/Home-bg.png" class="home-bg" alt="Nexa Yonder - Úvod">
+            <div class="home-shadow"></div>
+
+            <div class="home-container container">
+                <div class="home-data">
+                    <div class="home-title">
+                        <h1>Stavíme budoucnost <br> Vaší firmy</h1>
+                    </div>
+
+                    <div class="box-containers">
+                        <div class="box-container">
+                            <h2>Orientační odhad</h2>
+                            <h3>Profesionální zázemí, jednoduše s námi!</h3>
+    
+                            <div class="first-inputs">
+                                <input type="text" id="place" placeholder="Místo">
+                                <input type="text" id="size" placeholder="M&#178">
+                            </div>
+    
+                            <div class="second-input">
+                                <input type="email" id="email-home" placeholder="E-mail">
+                            </div>
+    
+                            <button class="btn-send">Odeslat</button>
+                        </div>
+
+                        <div class="small-container">
+                            <h2>700m&#178
+                                <i class="fas fa-plus"></i><i class="fas fa-minus"></i>
+                            </h2>
+                            <h3>Hala pro střední fabriku</h3>
+                            <div class="price">Od 700 000 Kč</div>
+                            <div class="last-row">
+                                <h3>Středočeský kraj</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star up"></i>
+                                    <i class="fas fa-star right"></i>
+                                    <i class="fas fa-star left"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-------------------- About Us -------------------->
+        <section class="about section" id="about">
+            <div class="about-container container">
+                <div class="shadow-text">O&nbsp;nás</div>
+                <h2 class="section-title-about">O&nbsp;nás</h2>
+                <p class="about-description">
+                    Nexa Yonder byla založena v roce 2005 a od té doby jsme se stali lídry ve 
+                    výstavbě hal a továren. S více než 15 lety zkušeností přinášíme excelenci a inovace 
+                    do každého projektu. Specializujeme se na využívání moderních technologií 
+                    a kvalitních materiálů, abychom splnili individuální potřeby našich klientů.
+                </p>
+            </div>
+        </section>
+
+        <!-------------------- Proces -------------------->
+        <section class="proces section" id="proces">
+            <div class="proces-container container">
+                <div class="proces-data">
+                    <h2 class="section-title-proces">Jak fungujeme?</h2>
+                    <p class="proces-description">
+                        Poskytujeme Vám nejlepší způsob, jak postavit halu s jednoduchými a bezpečnými procesy.
+                        Podívejte se, jak to děláme!
+                    </p>
+                </div>
+
+                <div class="cards-proces">
+                    <div class="card-proces">
+                        <img src="img/Proces1.png" alt="Proces 1 - Domluva">
+                        <h2>Domluva</h2>
+                        <p>Trochu povídání, domlouvání, vylepšování a tak dále.</p>
+                    </div>
+
+                    <div class="card-proces">
+                        <img src="img/Proces2.png" alt="Proces 2 - Práce">
+                        <h2>Práce</h2>
+                        <p>Přemýšlení, plánování, bourání, stavění, stěhování.</p>
+                    </div>
+
+                    <div class="card-proces">
+                        <img src="img/Proces3.png" alt="Proces 3 - Předání">
+                        <h2>Předání</h2>
+                        <p>Dokončování, zametání, předávání, radost!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-------------------- Sponsors -------------------->
+        <section class="sponsor section">
+            <div class="sponsor-container container">
+                <img src="img/Logo1.png" alt="Logo - sponzoři">
+                <img src="img/Logo2.png" alt="Logo - sponzoři">
+                <img src="img/Logo3.png" alt="Logo - sponzoři">
+                <img src="img/Logo4.png" alt="Logo - sponzoři">
+            </div>
+        </section>
+
+        <!-------------------- Size -------------------->
+        <section class="size-help section" id="size-help">
+            <div class="size-help-container container">
+                <div class="size-help-data">
+                    <h2 class="section-title-size-help">Nevíte si rady s velikostí?</h2>
+                </div>
+
+                <div class="cards-size-help">
+                    <div class="card-size-help">
+                        <img src="img/Card1.png" alt="Velké hala">
+                        <div class="card-data">
+                            <h2>Velká hala</h2>
+                            <p>Pro 1000+ lidí</p>
+                        </div>
+                    </div>
+
+                    <div class="card-size-help">
+                        <img src="img/Card2.png" alt="Střední hala">
+                        <div class="card-data">
+                            <h2>Střední hala</h2>
+                            <p>Do 1000 lidí</p>
+                        </div>
+                    </div>
+
+                    <div class="card-size-help">
+                        <img src="img/Card3.png" alt="Malá hala">
+                        <div class="card-data">
+                            <h2>Malá hala</h2>
+                            <p>Do 500 lidí</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-------------------- Contact -------------------->
+        <section class="contact section" id="contact">
+            <img src="img/Contact.png" class="contact-bg" alt="Nexa Yonder - Kontakt">
+
+            <div class="contact-container container">
+                <div class="contact-card">
+                    <h2>Využíváme dotace!</h2>
+                    <p>
+                        S přispěním finančních dotací od Evropské
+                        unie stavíme naše moderní haly. Tyto prostředky nám umožňují investovat
+                        do nejnovějších technologií, vytvářet ekologicky šetrné stavby a posilovat 
+                        naši konkurenční schopnost.
+                    </p>
+                    <button class="btn-info">Zjistit více</button>
+                </div>
+
+                <div class="contact-form">
+                    <div class="contact-form-title">
+                        <h2>Kontaktujte nás</h2>
+                    </div>
+
+                    <div class="contact-form-inputs">
+                        <div class="contact-form-left">
+                            <input type="email" id="email-contact" placeholder="E-mail">
+                            <input type="text" id="name-contact" placeholder="Název firmy">
+                            <button class="btn-send-form">Odeslat</button>
+                        </div>
+
+                        <div class="contact-form-right">
+                            <textarea name="text" cols="30" rows="10" placeholder="Text"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-------------------- Footer -------------------->
+        <footer>
+            <div class="footer-data container">
+                &#169; 2024 Nexa Yonder Všechna práva vyhrazena. <br> 
+                | Cookies | Zásady ochrany osobních údajů | Obchodní podmínky | <br>
+                Sledujte nás: @Nexa Yonder | Vytvořeno s láskou a inovacemi <br>
+                Design: <a href="https://jirkydesign.com/" target="_blank">www.jirkydesign.cz</a> <br>
+                Vývoj: <a href="https://www.linkedin.com/in/david-kalmus-5b6b99299/" target="_blank">David Kalmus </a>
+            </div>
+        </footer>
+    </main>
+
+    <!-------------------- ScrollUp Btn -------------------->
+    <div id="scrollUp">
+        <i class="fa-solid fa-chevron-up"></i>
+    </div>
+
+    <!-------------------- Langs -------------------->
+    <script src="JavaScript/langs.js"></script>
+    <!-------------------- Scrollreveal Animation -------------------->
+    <script src="JavaScript/scrollreveal.min.js"></script>
+    <!-------------------- Script JS -------------------->
+    <script src="JavaScript/script.js"></script>
+</body>
+</html>
