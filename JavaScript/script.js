@@ -24,7 +24,7 @@ function menu() {
             link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.5}s`;
         }
     }); 
-}
+};
 
 // --------------------------- Scroll Section Active Link -------------------------------
 const section = document.querySelectorAll('section[id]');
@@ -43,8 +43,8 @@ const scrollActive = () => {
         } else {
             sectionsClass.classList.remove('active-link');
         }
-    })
-}
+    });
+};
 window.addEventListener('scroll', scrollActive);
 
 // ------------------------------- Scrollreveal Animation --------------------------------
@@ -54,7 +54,7 @@ const sr = ScrollReveal({
     duration: '3000',
     delay: 400,
     // reset: true // Animation repeat
-})
+});
 
 sr.reveal('.home-data, .section-title-proces, .section-title-size-help');
 sr.reveal('.section-title-about, .cards-size-help', {delay:500, distance:'100px',interval: 100});
