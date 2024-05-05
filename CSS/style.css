@@ -1259,6 +1259,7 @@ img {
     font-family: var(--body-font);
     background: #f1f1f1;
     border-radius: 10px;
+    outline: none;
     transition: transform 0.4s;
     
 }
