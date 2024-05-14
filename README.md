@@ -15,4 +15,4 @@
 <a href="https://nexa-yonder.netlify.app/">Nexa Yonder</a>
 
 ## License🔐
-[MIT License](LICENSE)
+[MIT License](LICENSE) 
