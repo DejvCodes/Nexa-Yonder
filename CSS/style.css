@@ -169,7 +169,6 @@ img {
         margin-inline: 3rem !important;
     }
 }
-
 @media only screen and (max-width: 1050px) {
     .container {
         margin-inline: 1.5rem !important;
@@ -178,7 +177,6 @@ img {
         margin-left: 0;
     }
 }
-
 @media only screen and (max-width: 850px) {
     .lang-content {
         display: flex;
@@ -191,7 +189,6 @@ img {
         width: 30px;
     }
 }
-
 @media only screen and (max-width: 550px) {
     .container {
         margin-inline: 0.7rem !important;
@@ -353,19 +350,16 @@ img {
         }
     } 
 }
-
 @media only screen and (max-width: 550px) {
     .nav .nav-links {
         width: 70%;
     }
 }
-
 @media only screen and (max-width: 370px) {
     .nav .nav-links {
         width: 100%;
     }
 }
-
 @media only screen and (max-width: 350px) {
     .logo .logo-img {
         width: 170px;
@@ -614,7 +608,6 @@ img {
         transform: translateY(-20px);
     }
 }
-
 @media only screen and (max-width: 850px) {
     .home-title {
         text-align: center;
@@ -629,7 +622,6 @@ img {
         margin-bottom: 1.5rem;
     }
 }
-
 @media only screen and (max-width: 550px) {
     .home-shadow {
         position: absolute;
@@ -669,7 +661,6 @@ img {
         margin: 0 0.3rem 1rem 0.3rem;
     }
 }
-
 @media only screen and (max-width: 370px) {
     .home {
         padding-block: 2rem;
@@ -744,7 +735,6 @@ img {
         font-size: 4.5rem;
     }
 }
-
 @media only screen and (max-width: 370px) {
     .shadow-text {
         top: -7px;
@@ -829,7 +819,6 @@ img {
         gap: 2.9rem;
     }
 }
-
 @media only screen and (max-width: 1300px) {
     .cards-proces {
         grid-template-columns: repeat(3, 320px);
@@ -844,7 +833,6 @@ img {
         font-size: calc(var(--h2-font-size) - 0.2rem);
     }
 }
-
 @media only screen and (max-width: 1050px) {
     .cards-proces {
         grid-template-columns: repeat(2, 380px);
@@ -856,7 +844,6 @@ img {
         height: 300px;
     }
 } 
-
 @media only screen and (max-width: 850px) {
     .cards-proces {
         grid-template-columns: repeat(1, 450px);
@@ -871,7 +858,6 @@ img {
         font-size: calc(var(--description-size) + 0.2rem);
     }
 } 
-
 @media only screen and (max-width: 550px) {
     .section-title-proces {
         font-size: calc(var(--section-title) - 0.8rem);
@@ -901,7 +887,6 @@ img {
         font-size: calc(var(--description-size) - 0.1rem);
     }
 }
-
 @media only screen and (max-width: 370px) {
     .cards-proces {
         grid-template-columns: repeat(1, 260px);
@@ -916,7 +901,6 @@ img {
         font-size: calc(var(--description-size) - 0.1rem);
     }
 }
-
 @media only screen and (max-width: 272px) {
     .cards-proces {
         grid-template-columns: repeat(1, 232px);
@@ -962,7 +946,6 @@ img {
         gap: 5rem;
     }
 } 
-
 @media only screen and (max-width: 1150px) {
     .sponsor-container {
         gap: 2rem;
@@ -972,7 +955,6 @@ img {
         padding: 20px;
     }
 }
-
 @media only screen and (max-width: 850px) {
     .sponsor-container {
         gap: 0rem;
@@ -986,7 +968,6 @@ img {
         padding: 20px;
     }
 } 
-
 @media only screen and (max-width: 300px) {
     .sponsor-container {
         display: grid;
@@ -1062,14 +1043,12 @@ img {
         gap: 2.9rem;
     }
 }
-
 @media only screen and (max-width: 1300px) {
     .cards-size-help {
         grid-template-columns: repeat(3, 321px);
         gap: 1rem;
     }
 }
-
 @media only screen and (max-width: 1050px) {
     .cards-size-help {
         grid-template-columns: repeat(2, 381px);
@@ -1090,7 +1069,6 @@ img {
         font-size: calc(var(--description-size) + 0.1rem);
     }
 }
-
 @media only screen and (max-width: 550px) {
     .size-help-data .section-title-size-help {
         font-size: calc(var(--section-title) - 1rem);
@@ -1107,7 +1085,6 @@ img {
         font-size: var(--description-size);
     }
 }
-
 @media only screen and (max-width: 370px) {
     .size-help-data .section-title-size-help {
         font-size: calc(var(--section-title) - 0.8rem);
@@ -1121,7 +1098,6 @@ img {
         border-radius: 15px;
     }
 }
-
 @media only screen and (max-width: 272px) {
     .cards-size-help {
         grid-template-columns: repeat(1, 233px);
@@ -1228,7 +1204,6 @@ img {
 }
 .contact-form-left input:hover {
     transform: scale(1.05);
-
 }
 .contact-form-left .btn-send-form {
     width: 100%;
@@ -1261,7 +1236,6 @@ img {
     border-radius: 10px;
     outline: none;
     transition: transform 0.4s;
-    
 }
 .contact-form-right textarea:hover {
     transform: scale(1.01);
@@ -1275,13 +1249,11 @@ img {
         justify-content: center;
     }
 }
-
 @media only screen and (max-width: 1050px) {
     .contact-card {
         max-width: 775px;
     }
 }
-
 @media only screen and (max-width: 850px) {
     .contact-card {
         max-width: 450px;
@@ -1301,7 +1273,6 @@ img {
         margin-bottom: 1.2rem;
     }
 }
-
 @media only screen and (max-width: 550px) {
     .contact-card {
         padding: 35px;
@@ -1338,7 +1309,6 @@ img {
         font-size: 0.9rem;
     }
 }
-
 @media only screen and (max-width: 370px) {
     .contact-card {
         text-align: center;
@@ -1352,7 +1322,6 @@ img {
         padding: 20px 30px;
     }
 }
-
 @media only screen and (max-width: 271px) {
     .contact-card {
         padding: 15px;
