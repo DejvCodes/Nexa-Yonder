@@ -679,7 +679,7 @@ button.home-btn-send {
   margin: 1rem 0 1.2rem 0;
 }
 .card-process h2 {
-  font-size: calc(var(--h2-font-size) - 0.3rem);
+  font-size: calc(var(--h2-font-size) - 0.1rem);
   color: var(--text-color);
   margin-bottom: 0.5rem;
 }
