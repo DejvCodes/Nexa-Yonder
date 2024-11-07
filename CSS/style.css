@@ -529,6 +529,9 @@ button.home-btn-send {
     padding: 18px 0 18px 10px;
     margin-bottom: 0.7rem;
   }
+  .home-place-and-size-inputs input#place {
+    width: 67%;
+  }
   button.home-btn-send {
     height: 45px;
     border-radius: 10px;
@@ -648,7 +651,7 @@ button.home-btn-send {
   flex-wrap: wrap;
   justify-content: center;
   cursor: pointer;
-  gap: 5rem;
+  gap: 6rem;
 }
 .card-process {
   width: 350px;
