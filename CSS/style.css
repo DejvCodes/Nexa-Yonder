@@ -98,6 +98,15 @@ img {
 .main {
   overflow: hidden; /* For animation ScrollReveal */
 }
+/* ---------- SCROLL BAR ---------- */
+::-webkit-scrollbar {
+  width: 0.8rem;
+  background: #BBCAFC;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 0.5rem;
+  background: var(--light-blue);
+}
 
 /* ---------- RESPONSIVE DESIGN ---------- */
 @media only screen and (max-width: 1150px) {
@@ -105,7 +114,6 @@ img {
     margin-inline: 0.7rem;
   }
 }
-
 
 /* ---------- HEADER ---------- */
 header.header {
@@ -201,7 +209,6 @@ nav.nav .nav-links .link.contact-link::after {
   transition: transform 0.3s linear;
   margin: 5px;
 }
-
 /* ---------- RESPONSIVE DESIGN ---------- */
 @media only screen and (max-width: 880px) {
   nav.nav .nav-links {
@@ -421,7 +428,7 @@ button.home-btn-send {
 }
 .stars-container h2 i {
   font-size: 20px;
-  padding: 2px;
+  padding: 1px;
 }
 .stars-container h2 .fa-plus {
   margin-left: 3px;
@@ -475,7 +482,6 @@ button.home-btn-send {
   right: 0;
   padding-bottom: 5px;
 }
-
 /* ---------- RESPONSIVE DESIGN ---------- */
 @media only screen and (max-width: 880px) {
   .home-title {
@@ -534,7 +540,6 @@ button.home-btn-send {
     transform: translateY(-20px);
   }
 } 
-
 @media only screen and (max-width: 320px) {
   .home-box-container {
     padding: 24px;
