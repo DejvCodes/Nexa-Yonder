@@ -839,7 +839,7 @@ button.home-btn-send {
 }
 @media only screen and (max-width: 580px) {
   .size-help {
-    padding: 4rem 0 4rem 0;
+    padding: 4rem 0 7rem 0;
   }
   .section-title-size-help {
     font-size: calc(var(--section-title) - 0.5rem);
