@@ -306,7 +306,7 @@ nav.nav .nav-links .link.contact-link::after {
   font-size: var(--biggest-font-size);
   font-family: 'Montserrat';
   font-weight: 600;
-  margin: 5rem 0 2rem 0;
+  margin: 8rem 0 2rem 0;
 }
 .home-box-containers {
   width: 100%;
