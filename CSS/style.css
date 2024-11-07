@@ -605,4 +605,7 @@ button.home-btn-send {
     top: -16px;
     font-size: 5rem;
   }
+  .about-description {
+    text-align: justify;
+  }
 }
