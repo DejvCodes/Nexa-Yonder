@@ -560,6 +560,9 @@ button.home-btn-send {
     height: 150px;
     padding: 16px;
   }
+  .stars-container h2 i {
+    font-size: 16px;
+  }
   .stars-container .row {
     transform: translateY(-25px);
   }
