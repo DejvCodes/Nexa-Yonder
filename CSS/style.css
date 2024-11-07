@@ -856,6 +856,7 @@ button.home-btn-send {
   }
   .card-size-help .card-data {
     transform: translateY(30%);
+    padding: 2.5rem;
   }
   .card-size-help img {
     width: 100%;
