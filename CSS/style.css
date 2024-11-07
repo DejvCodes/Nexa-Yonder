@@ -605,7 +605,7 @@ button.home-btn-send {
 /* ---------- RESPONSIVE DESIGN ---------- */
 @media only screen and (max-width: 580px) {
   .about {
-    padding: 3rem 0;
+    padding: 4rem 0;
   }
   .shadow-text {
     top: -16px;
@@ -690,7 +690,7 @@ button.home-btn-send {
 }
 @media only screen and (max-width: 580px) {
   .process {
-    padding: 3rem 0 3rem 0;
+    padding: 4rem 0 4rem 0;
   }
   .section-title-process {
     font-size: calc(var(--section-title) - 0.5rem);
