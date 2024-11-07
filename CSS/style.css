@@ -39,7 +39,7 @@
     --btn-font-size: 0.95rem;
     --normal-size: 0.85rem;
     --link-font-size: 1.3rem;
-    --description-size: 1rem;
+    --description-size: 1.05rem;
   }
 }
 @media only screen and (max-width: 320px) {
@@ -604,8 +604,5 @@ button.home-btn-send {
   .shadow-text {
     top: -16px;
     font-size: 5rem;
-  }
-  .about-description {
-    text-align: justify;
   }
 }
