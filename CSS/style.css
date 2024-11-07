@@ -43,6 +43,19 @@
 
   }
 }
+@media only screen and (max-width: 320px) {
+  :root {
+    --biggest-font-size: 0.9rem;
+    --h2-font-size: 1rem;
+    --h3-font-size: 0.65rem;
+    --normal-size: 0.7rem;
+    --btn-font-size: 0.8rem;
+
+
+
+
+  }
+}
 
 
 
@@ -442,7 +455,6 @@ button.home-btn-send {
   transform: translateY(-15px);
 }
 .stars-container .row h3 {
-  font-size: 16px;
   margin: 0;
 }
 .stars-container .row .stars {
@@ -520,7 +532,6 @@ button.home-btn-send {
   button.home-btn-send {
     height: 45px;
     border-radius: 10px;
-    cursor: pointer;
   }
   .stars-container {
     width: 80%;
@@ -531,3 +542,28 @@ button.home-btn-send {
     transform: translateY(-20px);
   }
 } 
+
+@media only screen and (max-width: 320px) {
+  .home-box-container {
+    padding: 24px;
+  }
+  .home-place-and-size-inputs input,
+  .home-email-input input {
+    height: 25px;
+    padding: 16px 0 16px 10px;
+    margin-bottom: 0.5rem;
+  }
+  button.home-btn-send {
+    height: 40px;
+  }
+  .stars-container {
+    height: 150px;
+    padding: 16px;
+  }
+  .stars-container .row {
+    transform: translateY(-25px);
+  }
+  .stars-container .row .stars {
+    font-size: 20px;
+  }
+}
