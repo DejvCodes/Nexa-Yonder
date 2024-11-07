@@ -286,6 +286,9 @@ nav.nav .nav-links .link.contact-link::after {
   }
 }
 @media only screen and (max-width: 370px) {
+  img.logo-img {
+    width: 200px;
+  }
   nav.nav .nav-links {
     width: 100%;
   }
@@ -544,6 +547,7 @@ button.home-btn-send {
 } 
 
 @media only screen and (max-width: 320px) {
+  .ho
   .home-box-container {
     padding: 24px;
   }
