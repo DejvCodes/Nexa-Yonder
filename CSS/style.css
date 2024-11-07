@@ -723,6 +723,12 @@ button.home-btn-send {
     font-size: calc(var(--section-title) - 1rem);
     margin-bottom: 1rem;
   }
+  .card-process {
+    height: 210px;
+  }
+  .card-process img {
+    width: 90px;
+  }
 }
 
 /* ---------- SPONSORS ---------- */
