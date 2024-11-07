@@ -265,7 +265,7 @@ nav.nav .nav-links .link.contact-link::after {
 }
 @media only screen and (max-width: 580px) {
   img.logo-img {
-    width: 230px;
+    width: 250px;
     padding-bottom: 0;
   }
   nav.nav .nav-links {
@@ -536,7 +536,6 @@ button.home-btn-send {
 } 
 
 @media only screen and (max-width: 320px) {
-  .ho
   .home-box-container {
     padding: 24px;
   }
