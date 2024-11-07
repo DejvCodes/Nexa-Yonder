@@ -29,7 +29,6 @@
     --biggest-font-size: 1.9rem;
   }
 }
-
 @media only screen and (max-width: 580px) {
   :root {
     --biggest-font-size: 1.2rem;
@@ -38,9 +37,6 @@
     --btn-font-size: 0.95rem;
     --normal-size: 0.85rem;
     --link-font-size: 1.3rem;
-
-
-
   }
 }
 @media only screen and (max-width: 320px) {
@@ -50,19 +46,8 @@
     --h3-font-size: 0.65rem;
     --normal-size: 0.7rem;
     --btn-font-size: 0.8rem;
-
-
-
-
   }
 }
-
-
-
-
-
-
-
 
 /* ---------- BASE ---------- */
 * {
@@ -470,7 +455,7 @@ button.home-btn-send {
 .stars .up {
   position: absolute;
   top: 0;
-  right: 50%;
+  right: 47%;
   opacity: 35%;
   transform: translateX(40%);
 }
