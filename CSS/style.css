@@ -15,7 +15,7 @@
   --biggest-font-size: 1.65rem;
   --section-title: 4rem;
   --h1-font-size: 3rem;
-  --h2-font-size: 1.6rem;
+  --h2-font-size: 1.8rem;
   --link-font-size: 1.2rem;
   --btn-font-size: 1.2rem;
   --description-size: 1.1rem;
@@ -306,7 +306,7 @@ nav.nav .nav-links .link.contact-link::after {
   font-size: var(--biggest-font-size);
   font-family: 'Montserrat';
   font-weight: 600;
-  margin: 8rem 0 2rem 0;
+  margin: 7rem 0 4rem 0;
 }
 .home-box-containers {
   width: 100%;
@@ -349,7 +349,7 @@ nav.nav .nav-links .link.contact-link::after {
   border-radius: 12px;
   transition: transform 0.2s linear;
   padding: 20px 0 20px 10px;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 .home-place-and-size-inputs input#place {
   width: 65%;
