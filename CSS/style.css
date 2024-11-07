@@ -653,8 +653,8 @@ button.home-btn-send {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  cursor: pointer;
   gap: 6rem;
+  cursor: pointer;
 }
 .card-process {
   width: 350px;
@@ -769,5 +769,110 @@ button.home-btn-send {
   .sponsors-container img {
     width: 180px;
     padding: 18px;
+  }
+}
+
+/* ---------- SIZE ---------- */
+.size-help {
+  width: 100%;
+  height: 100%;
+  background: var(--dark-blue);
+  padding: 5rem 0 11rem 0;
+}
+.size-help-container {
+  position: relative;
+}
+.size-help-data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-title-size-help {
+  text-align: center;
+  font-size: var(--section-title);
+  font-weight: bold;
+  color: var(--white-color);
+  margin-bottom: 2.5rem;
+}
+.cards-size-help {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  cursor: pointer;
+  gap: 6rem;
+}
+.card-size-help {
+  position: relative;
+  width: 350px;
+  height: 270px;
+  transition: transform 0.2s linear;
+}
+.card-size-help:hover {
+  transform: scale(1.03);
+}
+.card-size-help .card-data {
+  position: absolute;
+  width: 100%;
+  height: 30%;
+  bottom: 0;
+  transform: translateY(90%);
+  background: var(--white-color);
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.card-data h2 {
+  font-size: calc(var(--h2-font-size) - 0.4rem);
+}
+.card-data p {
+  font-size: calc(var(--description-size));
+}
+/* ---------- RESPONSIVE DESIGN ---------- */
+@media only screen and (max-width: 1380px) {
+  .cards-size-help {
+    gap: 8rem 3rem;
+  }
+}
+@media only screen and (max-width: 580px) {
+  .size-help {
+    padding: 4rem 0 4rem 0;
+  }
+  .section-title-size-help {
+    font-size: calc(var(--section-title) - 0.5rem);
+    margin-bottom: 2.5rem;
+  }
+  .cards-size-help {
+    gap: 3rem 0rem;
+  }
+  .card-size-help {
+    position: relative;
+    width: 95%;
+    height: 230px;
+    transition: transform 0.2s linear;
+  }
+  .card-size-help .card-data {
+    transform: translateY(30%);
+  }
+  .card-size-help img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+  .card-data h2 {
+    font-size: calc(var(--h2-font-size) - 0.1rem);
+  }
+  .card-data p {
+    font-size: calc(var(--description-size));
+  }
+}
+@media only screen and (max-width: 320px) {
+  .section-title-size-help {
+    font-size: calc(var(--section-title) - 1rem);
+    margin-bottom: 1.5rem;
   }
 }
