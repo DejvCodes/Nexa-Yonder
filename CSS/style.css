@@ -843,7 +843,7 @@ button.home-btn-send {
   }
   .section-title-size-help {
     font-size: calc(var(--section-title) - 0.5rem);
-    margin-bottom: 2.5rem;
+    margin-bottom: 2rem;
   }
   .cards-size-help {
     gap: 3rem 0rem;
@@ -867,7 +867,7 @@ button.home-btn-send {
     font-size: calc(var(--h2-font-size) - 0.1rem);
   }
   .card-data p {
-    font-size: calc(var(--description-size));
+    font-weight: 400;
   }
 }
 @media only screen and (max-width: 320px) {
