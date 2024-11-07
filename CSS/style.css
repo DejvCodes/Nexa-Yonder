@@ -39,7 +39,7 @@
     --btn-font-size: 0.95rem;
     --normal-size: 0.85rem;
     --link-font-size: 1.3rem;
-    --description-size: 1.05rem;
+    --description-size: 1rem;
   }
 }
 @media only screen and (max-width: 320px) {
