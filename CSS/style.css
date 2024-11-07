@@ -37,7 +37,7 @@
     --h3-font-size: 0.8rem;
     --btn-font-size: 0.95rem;
     --normal-size: 0.85rem;
-  --link-font-size: 1.3rem;
+    --link-font-size: 1.3rem;
 
 
 
@@ -269,6 +269,7 @@ nav.nav .nav-links .link.contact-link::after {
   nav.nav .nav-links {
     width: 70%;
     gap: 0.5rem;
+    padding-bottom: 3rem;
   }
 }
 @media only screen and (max-width: 370px) {
