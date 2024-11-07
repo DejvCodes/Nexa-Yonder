@@ -14,7 +14,7 @@
   /* 0.5rem = 8px | 1rem = 16px ... */
   --body-font: 'Poppins', sans-serif;
   --biggest-font-size: 1.65rem;
-  --section-title: 4rem;
+  --section-title: 3.5rem;
   --h1-font-size: 3rem;
   --h2-font-size: 1.8rem;
   --link-font-size: 1.2rem;
@@ -50,6 +50,8 @@
     --normal-size: 0.7rem;
     --btn-font-size: 0.8rem;
     --description-size: 0.9rem;
+    --section-title: 2.8rem;
+
   }
 }
 
@@ -580,7 +582,7 @@ button.home-btn-send {
 }
 .shadow-text {
   position: absolute;
-  top: -24px;
+  top: -30px;
   right: 50%;
   font-size: 7rem;
   font-family: 'Montserrat';
@@ -608,5 +610,114 @@ button.home-btn-send {
   .shadow-text {
     top: -16px;
     font-size: 5rem;
+  }
+}
+
+/* ---------- PROCESS ---------- */
+.process {
+  width: 100%;
+  height: 100%;
+  padding: 5rem 0 6rem 0;
+}
+.process-container {
+  width: 100%;
+  position: relative;
+}
+.process-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-title-process {
+  text-align: center;
+  font-size: var(--section-title);
+  font-weight: bold;
+  color: var(--text-color);
+  margin-bottom: 1.5rem;
+}
+.process-description {
+  max-width: 970px;
+  text-align: center;
+  font-size: calc(var(--description-size) + 0.1rem);
+  font-weight: 500;
+  color: var(--text-color);
+  margin-bottom: 2.5rem;
+}
+.cards-process {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  cursor: pointer;
+  gap: 5rem;
+}
+.card-process {
+  width: 350px;
+  height: 270px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  transition: transform 0.2s linear;
+  padding: 1rem;
+}
+.card-process:hover {
+  transform: scale(1.03);
+}
+.card-process img {
+  width: 120px;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  margin: 1rem 0 1.2rem 0;
+}
+.card-process h2 {
+  font-size: calc(var(--h2-font-size) - 0.3rem);
+  color: var(--text-color);
+  margin-bottom: 0.5rem;
+}
+.card-process p {
+  width: 280px;
+  font-size: var(--description-size);
+  font-weight: 500;
+}
+/* ---------- RESPONSIVE DESIGN ---------- */
+@media only screen and (max-width: 1380px) {
+  .cards-process {
+    gap: 3rem;
+  }
+}
+@media only screen and (max-width: 580px) {
+  .process {
+    padding: 3rem 0 3rem 0;
+  }
+  .section-title-process {
+    font-size: calc(var(--section-title) - 0.5rem);
+    margin-bottom: 1rem;
+  }
+  .process-description {
+    width: 100%;
+    font-size: calc(var(--description-size));
+    margin-bottom: 1.5rem;
+  }
+  .cards-process {
+    gap: 1.2rem;
+  }
+  .card-process {
+    width: 95%;
+    height: 250px;
+    padding: 1rem;
+  }
+  .card-process h2 {
+    font-size: calc(var(--h2-font-size));
+    color: var(--text-color);
+    margin-bottom: 0.5rem;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .section-title-process {
+    font-size: calc(var(--section-title) - 1rem);
+    margin-bottom: 1rem;
   }
 }
