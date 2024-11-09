@@ -32,26 +32,25 @@
 }
 @media only screen and (max-width: 580px) {
   :root {
-    --biggest-font-size: 1.2rem;
-    --h2-font-size: 1.35rem;
-    --h3-font-size: 0.8rem;
     --section-title: 3rem;
+    --h2-font-size: 1.35rem;
+    --link-font-size: 1.3rem;
+    --biggest-font-size: 1.2rem;
     --btn-font-size: 0.95rem;
     --normal-size: 0.85rem;
-    --link-font-size: 1.3rem;
+    --h3-font-size: 0.8rem;
     --description-size: 1rem;
   }
 }
 @media only screen and (max-width: 320px) {
   :root {
-    --biggest-font-size: 0.9rem;
-    --h2-font-size: 1rem;
-    --h3-font-size: 0.65rem;
-    --normal-size: 0.7rem;
-    --btn-font-size: 0.8rem;
-    --description-size: 0.9rem;
     --section-title: 2.8rem;
-
+    --h2-font-size: 1rem;
+    --description-size: 0.9rem;
+    --biggest-font-size: 0.9rem;
+    --btn-font-size: 0.8rem;
+    --normal-size: 0.7rem;
+    --h3-font-size: 0.65rem;
   }
 }
 
@@ -111,6 +110,30 @@ img {
   background: var(--light-blue);
 }
 
+/* ---------- SCROLLUP BTN ---------- */
+#scrollUp {
+  position: fixed;
+  right: 0.7rem;
+  bottom: 0.7rem;
+  width: 45px;
+  height: 45px;
+  background: rgb(49, 97, 240);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+  transition: all 0.5s;
+  cursor: pointer;
+  opacity: 0;
+}
+#scrollUp:hover {
+  background: #053ada;
+}
+#scrollUp.show {
+  opacity: 1;
+}
 /* ---------- RESPONSIVE DESIGN ---------- */
 @media only screen and (max-width: 1150px) {
   .container {
@@ -172,7 +195,7 @@ nav.nav .nav-links .link::after {
 nav.nav .nav-links .link:hover:after {
   width: 94%;
 }
-.active-link::after {
+nav.nav .nav-links .active-link::after {
   width: 94%;
 }
 nav.nav .nav-links .link.contact-link {
@@ -830,7 +853,7 @@ button.home-btn-send {
   font-size: calc(var(--h2-font-size) - 0.4rem);
 }
 .card-data p {
-  font-size: calc(var(--description-size));
+  font-size: var(--description-size);
 }
 /* ---------- RESPONSIVE DESIGN ---------- */
 @media only screen and (max-width: 1380px) {
