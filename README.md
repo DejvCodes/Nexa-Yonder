@@ -14,7 +14,7 @@ The site features a bilingual interface (Czech/English) and responsive design fo
 • **Loading Animation** – Smooth loader for better initial page experience. <br>
 
 ## 📱 Screenshots
-<img src="img/1 Nexa Yonder.jpg" width="350"> <img src="img/2 Nexa Yonder.jpg" width="350">
+<img src="img/nexa-yonder-1.jpg" width="350"> <img src="img/nexa-yonder-2.jpg" width="350">
 
 ## 🏃🏻 How to Run this App
 1. Clone the repository: <br>
