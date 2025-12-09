@@ -97,4 +97,4 @@ sr.reveal('.home-data, .section-title-process, .section-title-size-help');
 sr.reveal('.section-title-about-us, .cards-size-help', {delay:200, distance:'100px',interval: 100});
 sr.reveal('.cards-process', {delay:100, distance:'70px',interval: 100});
 sr.reveal('.sponsors-container, .contact-container', {distance:'150px',origin:'left'});
-sr.reveal('.about-description, .footer-top, .process-description, .footer-bottom', {interval:100});
+sr.reveal('.about-description, .footer-top, .process-description', {interval:100});
