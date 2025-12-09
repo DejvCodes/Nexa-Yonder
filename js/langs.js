@@ -183,7 +183,7 @@ const translate = (lang) => {
   const navKeys = Object.values(t.nav);
   footerLinks.forEach((link, i) => {
     if (navKeys[i]) link.textContent = navKeys[i];
-  });
+  }); 
   
   const legalLinks = document.querySelectorAll('.footer-column')[2].querySelectorAll('a');
   legalLinks[0].textContent = t.footer.cookies;
