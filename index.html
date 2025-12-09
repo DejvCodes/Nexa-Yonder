@@ -15,6 +15,13 @@
     <title>Nexa Yonder</title>
 </head>
 <body>
+    <!-------------------- LOADER -------------------->
+    <div class="loader-wrapper" id="loader">
+        <div class="loader">
+            <div class="loader-text">Nexa Yonder</div>
+        </div>
+    </div>
+
     <!-------------------- HEADER -------------------->
     <header class="header" id="header">
         <!-------------------- NAVIGATION -------------------->
@@ -31,11 +38,11 @@
                 <a href="#contact" class="link contact-link">Kontakt</a>
                 <!---------- LANGUAGES ---------->
                 <div class="lang-content">
-                    <a href="#" language="czech">
-                        <img src="img/CZ.png" width="24px">
+                    <a href="#" data-lang="cz" class="lang-btn active">
+                        CZ
                     </a>
-                    <a href="#" language="english">
-                        <img src="img/EN.png" width="24px">
+                    <a href="#" data-lang="en" class="lang-btn">
+                        EN
                     </a>
                 </div>
             </ul>
@@ -52,13 +59,16 @@
     <main class="main" id="main">
         <!-------------------- SECTION - HOME -------------------->
         <section class="home section" id="home">
-            <img src="img/Home-bg.png" class="home-bg" alt="Nexa Yonder - Úvod">
+            <img src="./img/home-bg.jpg" class="home-bg" alt="Nexa Yonder - Úvod">
             <div class="home-shadow"></div>
 
             <div class="home-container container">
                 <div class="home-data">
                     <div class="home-title">
-                        <h1>Stavíme budoucnost <br> Vaší firmy</h1>
+                        <h1>
+                            <span class="highlight">Stavíme</span> budoucnost<br>
+                            Vaší firmy
+                        </h1>
                     </div>
 
                     <div class="home-box-containers">
@@ -225,12 +235,39 @@
     
     <!-------------------- FOOTER -------------------->
     <footer>
-        <div class="footer-data container">
-            &#169; 2024 Nexa Yonder Všechna práva vyhrazena. <br> 
-            | Cookies | Zásady ochrany osobních údajů | Obchodní podmínky | <br>
-            Sledujte nás: @Nexa Yonder | Vytvořeno s láskou a inovacemi <br>
-            Design: <a href="https://jirkydesign.com/" target="_blank">www.jirkydesign.cz</a> <br>
-            Vývoj: <a href="https://dejvcodes.netlify.app/" target="_blank">David Kalmus </a>
+        <div class="footer-container container">
+            <div class="footer-top">
+                <div class="footer-column">
+                    <h3>Nexa Yonder</h3>
+                    <p>Stavíme budoucnost vaší firmy od roku 2005</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Odkazy</h4>
+                    <a href="#home" class="footer-link">Domů</a>
+                    <a href="#about" class="footer-link">O nás</a>
+                    <a href="#process" class="footer-link">Proces</a>
+                    <a href="#size-help" class="footer-link">Velikost</a>
+                    <a href="#contact" class="footer-link">Kontakt</a>
+                </div>
+                <div class="footer-column">
+                    <h4>Práva</h4>
+                    <a href="#">Cookies</a>
+                    <a href="#">Ochrana osobních údajů</a>
+                    <a href="#">Obchodní podmínky</a>
+                </div>
+                <div class="footer-column">
+                    <h4>Sledujte nás</h4>
+                    <div class="footer-social">
+                        <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&#169; <span id="date"></span> Nexa Yonder. Všechna práva vyhrazena.</p>
+                <p>Vývoj: <a href="https://dejvcodes.netlify.app/" target="_blank">DejvCodes</a></p>
+            </div>
         </div>
     </footer>
 
