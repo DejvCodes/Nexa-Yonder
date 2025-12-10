@@ -14,7 +14,8 @@ const translations = {
       place: "Místo",
       send: "Odeslat",
       hallType: "Hala pro střední fabriku",
-      priceFrom: "Od 700 000 Kč"
+      priceFrom: "Od 700 000 Kč",
+      region: "Středočeský kraj"
     },
     about: {
       title: "O nás",
@@ -71,7 +72,8 @@ const translations = {
       place: "Place",
       send: "Send",
       hallType: "Hall for medium factory",
-      priceFrom: "From 700 000 CZK"
+      priceFrom: "From 700 000 CZK",
+      region: "Central Region"
     },
     about: {
       title: "About Us",
@@ -139,6 +141,7 @@ const translate = (lang) => {
   });
   document.querySelector('.stars-container h3').textContent = t.home.hallType;
   document.querySelector('.stars-container-price').textContent = t.home.priceFrom;
+  document.querySelector('.row h3').textContent = t.home.region;
   
   // About
   document.querySelector('.section-title-about-us').textContent = t.about.title;
@@ -193,7 +196,7 @@ const translate = (lang) => {
   document.querySelector('.footer-bottom p:first-child').innerHTML = 
     `&#169; <span id="date"></span> Nexa Yonder. ${t.footer.rights}`;
   document.querySelector('.footer-bottom p:last-child').innerHTML = 
-    `${t.footer.development} <a href="https://dejvcodes.netlify.app/" target="_blank">DejvCodes</a>`;
+    `${t.footer.development} <a href="https://dejvcodes.com" target="_blank">DejvCodes</a>`;
   
   // Date update
   document.getElementById('date').textContent = new Date().getFullYear();

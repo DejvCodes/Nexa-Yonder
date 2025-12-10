@@ -827,8 +827,7 @@ button.home-btn-send:hover::before {
     padding: 4rem 0;
   }
   .shadow-text {
-    top: -5px;
-    font-size: 3.7rem;
+    display: none;
   }
 }
 
