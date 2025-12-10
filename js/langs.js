@@ -196,7 +196,7 @@ const translate = (lang) => {
   document.querySelector('.footer-bottom p:first-child').innerHTML = 
     `&#169; <span id="date"></span> Nexa Yonder. ${t.footer.rights}`;
   document.querySelector('.footer-bottom p:last-child').innerHTML = 
-    `${t.footer.development} <a href="https://dejvcodes.com" target="_blank">DejvCodes</a>`;
+    `${t.footer.development} <a href="https://dejvcodes.com/" target="_blank">DejvCodes</a>`;
   
   // Date update
   document.getElementById('date').textContent = new Date().getFullYear();
